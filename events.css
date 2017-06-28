@@ -1,0 +1,34 @@
+.addColor {
+	color: green;
+}
+
+.hulkSmash {
+	font-size: 2em;
+}
+
+.trapped {
+	border: 2px solid black;
+}
+
+.roundedEdge {
+	border-radius: 50px;
+}
+
+/*The first section's text should be bold.
+
+The last section's text should be bold and italicized.
+
+Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+
+section:first-child {
+	font-weight: bold;
+}
+
+section:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+
+button {
+	display: block;
+}
